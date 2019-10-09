@@ -1,0 +1,6 @@
+1) Admin User:
+	- poonmabansal@gmail.com : admin1234
+
+2) Student User:
+	- abdulmalik422@gmail.com :	123456
+	
