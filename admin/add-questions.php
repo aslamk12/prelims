@@ -98,7 +98,7 @@ header("location:./");
                         </a>
                     </div>
                     <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="kashipara.png" alt="" height="76" width="130"></span></a>
+                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
                     </div>
                     <div class="search-button">
                         <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
@@ -250,7 +250,7 @@ header("location:./");
                                             </tr>
 											
 											<tr>
-                                                <th scope="row">3</th>
+                                                <th scope="row">4</th>
                                                 <td>
 												<div class="form-group">
                                                 <label for="exampleInputEmail1">Option 4</label>

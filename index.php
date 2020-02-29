@@ -36,7 +36,7 @@
         <main class="page-content">
 
             <div class="page-inner">
-            <img src="kashipara.png" alt="" height="100" width="250">
+            <img src="karma.png" alt="" height="100" width="250">
                 <div id="main-wrapper">
                     <div class="row">
                         <div class="col-md-4 center">
@@ -51,7 +51,7 @@
                                         <input type="password" class="form-control" placeholder="Your strong password" name="login" required>
                                     </div>
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
-                                    <a href="forgot_pw.php" class="display-block text-center m-t-md text-sm">Forgot Password?</a>
+                                    <!--<a href="forgot_pw.php" class="display-block text-center m-t-md text-sm">Forgot Password?</a>-->
                                 </form>
                                
                             </div>

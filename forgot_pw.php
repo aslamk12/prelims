@@ -34,7 +34,7 @@
      <body <?php if ($ms == "1") { print 'onload="myFunction()"'; } ?>  class="page-login">
         <main class="page-content">
             <div class="page-inner">
-            <img src="kashipara.png" alt="" height="100" width="250">   
+            <img src="karma.png" alt="" height="100" width="250">   
                 <div id="main-wrapper">
                     <div class="row">
                         <div class="col-md-4 center">
