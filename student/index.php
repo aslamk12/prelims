@@ -132,8 +132,6 @@ include 'includes/fetch_records.php';
                     </div>
                     <ul class="menu accordion-menu">
                         <li class="active"><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
-                        <li><a href="subject.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-file"></span><p>Subjects</p></a></li>
-                        <li><a href="students.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Students</p></a></li>
                         <li><a href="examinations.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-book"></span><p>Examinations</p></a></li>
                         <li><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
 
@@ -152,20 +150,7 @@ include 'includes/fetch_records.php';
                 </div>
                 <div id="main-wrapper">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter"><?php echo number_format($students_in_my_class); ?></p>
-                                        <span class="info-box-title">STUDENTS IN MY CLASS</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-user"></i>
-                                    </div>
-     
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="col-lg-3 col-md-6">
                             <div class="panel info-box panel-white">
                                 <div class="panel-body">
@@ -180,21 +165,8 @@ include 'includes/fetch_records.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter"><?php echo number_format($my_subjects); ?></p>
-                                        <span class="info-box-title">SUBJECTS</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-docs"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 						
-						                        <div class="col-lg-3 col-md-6">
+						<div class="col-lg-3 col-md-6">
                             <div class="panel info-box panel-white">
                                 <div class="panel-body">
                                     <div class="info-box-stats">
@@ -218,33 +190,6 @@ include 'includes/fetch_records.php';
                                         <i class="icon-list"></i>
                                     </div>
      
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p><span class="counter"><?php echo number_format($failed_exam); ?></span></p>
-                                        <span class="info-box-title">FAILED EXAMS</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-dislike"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="panel info-box panel-white">
-                                <div class="panel-body">
-                                    <div class="info-box-stats">
-                                        <p class="counter"><?php echo number_format($locked_exams); ?></p>
-                                        <span class="info-box-title">LOCKED EXAMS</span>
-                                    </div>
-                                    <div class="info-box-icon">
-                                        <i class="icon-lock"></i>
-                                    </div>
                                 </div>
                             </div>
                         </div>

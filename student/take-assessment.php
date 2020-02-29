@@ -205,8 +205,6 @@ header("location:./");
                     </div>
                     <ul class="menu accordion-menu">
                         <li><a href="./" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-home"></span><p>Dashboard</p></a></li>
-                        <li><a href="subject.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-file"></span><p>Subjects</p></a></li>
-                        <li><a href="students.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon glyphicon-user"></span><p>Students</p></a></li>
                         <li><a href="examinations.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-book"></span><p>Examinations</p></a></li>
                         <li><a href="results.php" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-certificate"></span><p>Exam Results</p></a></li>
 
@@ -244,32 +242,14 @@ header("location:./");
                                                </tr>
 											     <tr>
                                                    <th scope="row">2</th>
-                                                   <td>Subject</td>
+                                                   <td>Event Name</td>
                                                    <td><?php echo "$subject"; ?></td>
-                                               </tr>
-											    <tr>
-                                                   <th scope="row">3</th>
-                                                   <td>Deadline</td>
-                                                   <td><?php echo "$deadline"; ?></td>
                                                </tr>
 											   
 											    <tr>
                                                    <th scope="row">4</th>
                                                    <td>Duration</td>
                                                    <td><?php echo "$duration"; ?> <b>min.</b></td>
-                                               </tr>
-											   
-											  <tr>
-                                                   <th scope="row">5</th>
-                                                   <td>Next Re-take</td>
-                                                   <td><?php 
-												   if ($record_found == "1") {
-													 echo "$retake_date";  
-												   }else{
-													 echo "$next_retake";  
-												   }
-												   
-												   ?></td>
                                                </tr>
 											   
 											   <tr>
@@ -330,7 +310,7 @@ header("location:./");
                                     </div>
 
 									'; ?>
-									<a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Assessment</a>
+									<!--<a onclick="return confirm('Are you sure you want to begin ?')" class="btn btn-success" href="assessment.php">Retake Assessment</a>-->
 									
 									<?php	
 								}

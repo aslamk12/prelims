@@ -36,11 +36,12 @@
         <main class="page-content">
 
             <div class="page-inner">
-            <img src="karma.png" alt="" height="100" width="250">
+            
                 <div id="main-wrapper">
                     <div class="row">
                         <div class="col-md-4 center">
                             <div class="login-box">
+							<img src="karmalogo.png" alt="" height="200" width="250" class="center">
                                 <a href="./" class="logo-name text-lg text-center">Online Examination System</a>
                                 <p class="text-center m-t-md">Please login into your account.</p>
                                 <form class="m-t-md" action="pages/authentication.php" method="POST">

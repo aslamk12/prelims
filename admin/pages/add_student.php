@@ -2,7 +2,7 @@
 date_default_timezone_set('Africa/Dar_es_salaam');
 include '../../database/config.php';
 include '../../includes/uniques.php';
-$student_id = 'S'.get_rand_numbers(3).'-'.get_rand_numbers(3).'-'.get_rand_numbers(3).'';
+$student_id = mysqli_real_escape_string($conn, $_POST['student_id']);
 $fname = ucwords(mysqli_real_escape_string($conn, $_POST['fname']));
 $lname = ucwords(mysqli_real_escape_string($conn, $_POST['lname']));
 $email = mysqli_real_escape_string($conn, $_POST['email']);

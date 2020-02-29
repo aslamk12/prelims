@@ -281,6 +281,10 @@ include 'includes/check_reply.php';
                                                 </div>
                                                 <div role="tabpanel" class="tab-pane fade" id="tab6">
                                          <form action="pages/add_student.php" method="POST">
+										 <div class="form-group">
+                                            <label for="exampleInputEmail1">Student ID</label>
+                                            <input type="text" class="form-control" placeholder="Enter Student ID" name="student_id" required autocomplete="off">
+                                        </div>
 										<div class="form-group">
                                             <label for="exampleInputEmail1">First Name</label>
                                             <input type="text" class="form-control" placeholder="Enter first name" name="fname" required autocomplete="off">
