@@ -77,8 +77,8 @@ include 'includes/check_reply.php';
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                    <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
+                    <div class="logo-box" style="background-color:#a9c3c4">
+                        <a href="./" class="logo-text"><span><img src="karmalogo.png" alt="" height="76" width="130"></span></a>
                     </div>
                     <div class="search-button">
                         <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>

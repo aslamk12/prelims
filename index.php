@@ -42,14 +42,14 @@
                         <div class="col-md-4 center">
                             <div class="login-box">
 							<img src="karmalogo.png" alt="" height="200" width="250" class="center">
-                                <a href="./" class="logo-name text-lg text-center">Online Examination System</a>
+                              <!--  <a href="./" class="logo-name text-lg text-center">Online Examination System</a>-->
                                 <p class="text-center m-t-md">Please login into your account.</p>
                                 <form class="m-t-md" action="pages/authentication.php" method="POST">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Email or Registration No."  autocomplete="off" name="user" required>
+                                        <input type="text" class="form-control" placeholder="Registration No."  autocomplete="off" name="user" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control" placeholder="Your strong password" name="login" required>
+                                        <input type="password" class="form-control" placeholder="password" name="login" required>
                                     </div>
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
                                     <!--<a href="forgot_pw.php" class="display-block text-center m-t-md text-sm">Forgot Password?</a>-->

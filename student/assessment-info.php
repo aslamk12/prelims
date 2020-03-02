@@ -91,8 +91,8 @@ header("location:./");
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                    <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
+                    <div class="logo-box" style="background-color:#a9c3c4">
+                        <a href="./" class="logo-text"><span><img src="karmalogo.png" alt="" height="76" width="130"></span></a>
                     </div>
 
                     <div class="topmenu-outer">
@@ -201,11 +201,11 @@ header("location:./");
                                                </tr>
 
 											   
-											  <tr>
+											<!--  <tr>
                                                    <th scope="row">4</th>
                                                    <td>Next Re-take</td>
                                                    <td><?php echo "$next_retake";?></td>
-                                               </tr>
+                                               </tr>-->
 
                                               
                                            </tbody>

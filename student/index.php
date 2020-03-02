@@ -7,7 +7,7 @@ include 'includes/fetch_records.php';
     
 <head>
         
-        <title>OES | Student Dashboard</title>
+        <title>Profest | Student Dashboard</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -69,8 +69,8 @@ include 'includes/fetch_records.php';
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                    <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
+                    <div class="logo-box" style="background-color:#a9c3c4">
+                        <a href="./" class="logo-text"><span><img src="karmalogo.png" alt="" height="76" width="130" ></span></a>
                     </div>
 
                     <div class="topmenu-outer">
@@ -88,7 +88,7 @@ include 'includes/fetch_records.php';
 						                echo '<img width="40" height="40" src="data:image/jpeg;base64,'.base64_encode($myavatar).'" class="img-circle avatar"  alt="'.$myfname.'"/>';	
 						                }
 						
-						                ?>
+						                ?>Online
                                     </a>
                                     <ul class="dropdown-menu dropdown-list" role="menu">
                                         <li role="presentation"><a href="profile.php"><i class="fa fa-user"></i>Profile</a></li>
@@ -125,7 +125,7 @@ include 'includes/fetch_records.php';
                        
                                 </div>
                                 <div class="sidebar-profile-details">
-                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES Student</small></span>
+                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br></span>
                                 </div>
                             </a>
                         </div>

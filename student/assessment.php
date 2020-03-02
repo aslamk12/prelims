@@ -50,12 +50,6 @@ header("location:./");
 $sql = "SELECT * FROM tbl_assessment_records WHERE student_id = '$myid'";
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-
-    while($row = $result->fetch_assoc()) {
-    header("location:./take-assessment.php?id=$exam_id");
-    }
-} else {
 $myname = "$myfname $mylname";
 $recid = 'RS'.get_rand_numbers(14).'';
 
@@ -68,7 +62,7 @@ if ($conn->query($sql) === TRUE) {
 
 }
 
-}
+
 
 ?>
 <!DOCTYPE html>
@@ -77,7 +71,7 @@ if ($conn->query($sql) === TRUE) {
 <head>
         
     
-        <title>OES | Examination</title>
+        <title>Profest | Examination</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -194,7 +188,7 @@ if ($conn->query($sql) === TRUE) {
                        
                                 </div>
                                 <div class="sidebar-profile-details">
-                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES Student</small></span>
+                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br></span>
                                 </div>
                             </a>
                         </div>

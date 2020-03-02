@@ -27,7 +27,7 @@ header("location:./");
 <head>
         
     
-        <title>OES | View Exam</title>
+        <title>Profest | View Exam</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -91,8 +91,8 @@ header("location:./");
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                    <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
+                    <div class="logo-box" style="background-color:#a9c3c4">
+                        <a href="./" class="logo-text"><span><img src="karmalogo.png" alt="" height="76" width="130"></span></a>
                     </div>
                     <div class="search-button">
 					

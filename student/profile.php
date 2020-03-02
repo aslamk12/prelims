@@ -9,7 +9,7 @@ $qrcodetxt = 'ID:'.$myid.', NAME: '.$myfname.' '.$mylname.', GENDER: '.$mygender
     
 <head>
         
-        <title>OES | Student Profile</title>
+        <title>Profest | Student Profile</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -70,8 +70,8 @@ $qrcodetxt = 'ID:'.$myid.', NAME: '.$myfname.' '.$mylname.', GENDER: '.$mygender
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-                    <div class="logo-box">
-                        <a href="./" class="logo-text"><span><img src="karma.png" alt="" height="76" width="130"></span></a>
+                    <div class="logo-box" style="background-color:#a9c3c4">
+                        <a href="./" class="logo-text"><span><img src="karmalogo.png" alt="" height="76" width="130"></span></a>
                     </div>
 
                     <div class="topmenu-outer">
